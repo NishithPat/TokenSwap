@@ -6,10 +6,13 @@ Exchange smart contract uses the constant product function, xy = k(constant) to 
 
 Assume that there are 2 tokens A and B in an exchange contract. Let x be the number of A tokens and y be the number of B tokens in the contract. A user wants to swap dx number of A tokens, to get dy number of B tokens back. This swapping of tokens would happen in such a way that even after the trade takes place the product of the amount of both the tokens would still be the same constant - k.
 
-So, $$ (x + dx)(y - dy) = k
+So, (x + dx)(y - dy) = k
+
 => xy - xdy + ydx - dxdy = xy (as xy = k)
+
 => dy(dx + x) = ydx
-=> dy = y(dx/(dx + x)) $$
+
+=> dy = y(dx/(dx + x))
 
 dy = y(dx/(dx + x)) is the formula which is being used here to facilitate the swaps.
 
