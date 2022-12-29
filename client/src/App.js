@@ -170,7 +170,7 @@ function App() {
             <Typography variant="h5" align="center">Loading Web3, accounts, and contract...</Typography>
           </Box>
           <Box mt="1.5rem">
-            <Typography variant="h5" align="center">Please use the rinkeby testnet. If you are using another network, then please switch over to rinkeby and refresh the page!</Typography>
+            <Typography variant="h5" align="center">Please use the Goerli testnet. If you are using another network, then please switch over to Goerli and refresh the page!</Typography>
           </Box>
           <Box mt="2rem" component="span">
             <Typography variant="h6" align="center">If you do not have an etherum wallet, you can install it from here: </Typography>

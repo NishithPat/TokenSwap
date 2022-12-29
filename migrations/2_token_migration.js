@@ -10,5 +10,5 @@ module.exports = async function (deployer, network, accounts) {
   const exchangeInstance = await Exchange.deployed();
 
   await tokenInstance.approve(exchangeInstance.address, "100000000000000000000000", { from: accounts[0] });
-  await exchangeInstance.addLiquidity("100000", { from: accounts[0], value: web3.utils.toWei("10", "ether") });
+  await exchangeInstance.addLiquidity("1000", { from: accounts[0], value: web3.utils.toWei("0.1", "ether") });
 };

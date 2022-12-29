@@ -74,6 +74,12 @@ To deploy the contracts on Rinkeby -
 truffle migrate --network rinkeby
 ```
 
+To deploy the contracts on Goerli -
+
+```bash
+truffle migrate --network goerli
+```
+
 ### Frontend 
 
 Go to the client folder -
